@@ -1,22 +1,11 @@
-\## LeetCode
+## LeetCode
 
+![LeetCode Stats](./assets/leetcode_stats.svg)
 
+![Difficulty](./assets/difficulty.svg)
 
-!\[LeetCode Stats](./assets/leetcode\_stats.svg)
+![LeetCode Heatmap](./assets/heatmap.svg)
 
+![Streak](./assets/streak.svg)
 
-
-!\[Difficulty](./assets/difficulty.svg)
-
-
-
-!\[LeetCode Heatmap](./assets/heatmap.svg)
-
-
-
-!\[Streak](./assets/streak.svg)
-
-
-
-!\[Badges](./assets/badges.svg)
-
+![Badges](./assets/badges.svg)
