@@ -1,0 +1,38 @@
+<svg width="460" height="295"
+  viewBox="0 0 460 295"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  role="img"
+  aria-label="IITD-Veenit's Activity Streak"
+>
+  <title>IITD-Veenit's Activity Streak</title>
+
+<defs>
+<linearGradient id="bg_grad" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/></linearGradient>
+<filter id="card_shadow" x="-5%" y="-5%" width="110%" height="115%"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000060" flood-opacity="0.4"/></filter>
+<linearGradient id="flame_grad" x1="0%" y1="100%" x2="0%" y2="0%"><stop offset="0%" stop-color="#ff5500"/><stop offset="100%" stop-color="#ffa116"/></linearGradient>
+<linearGradient id="monthly_chart_grad" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#ffa116" stop-opacity="0.35"/><stop offset="100%" stop-color="#ffa116" stop-opacity="0.0"/></linearGradient>
+<filter id="dot_glow"><feGaussianBlur stdDeviation="3" result="blur"/><feFlood flood-color="#ffa116" flood-opacity="0.6" result="color"/><feComposite in="color" in2="blur" operator="in" result="glow"/><feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style>
+
+      @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+      .streak-content { animation: fadeIn 0.4s ease-out; }
+      @media (prefers-reduced-motion: reduce) { .streak-content { animation: none; } }
+    
+</style>
+</defs>
+<rect x="0.5" y="0.5" width="459" height="294" rx="12" fill="url(#bg_grad)" stroke="#30363d" stroke-width="1" filter="url(#card_shadow)"/>
+<g class="streak-content">
+<g transform="translate(22,24) scale(0.8333333333333334)"><path d="M13.5 2C13.5 2 7 8.5 7 14C7 17.58 9.92 20.5 13.5 20.5C17.08 20.5 20 17.58 20 14C20 12.2 19.3 10.5 18.2 9.2C17.9 10.5 17 11.5 15.8 11.8C15.8 9.5 14.7 7 13.5 2Z" fill="url(#flame_grad)"/></g>
+<text x="48" y="38" font-size="16" fill="#e6edf3" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif" font-weight="bold">Activity Streak</text>
+<text x="438" y="38" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif" font-size="11" text-anchor="end"><tspan fill="#8b949e">Total Active Days: </tspan><tspan fill="#e6edf3" font-weight="bold">0</tspan></text>
+<rect x="22" y="56" width="416" height="60" rx="10" fill="#21262d" fill-opacity="0.5" stroke="#30363d" stroke-width="0.8"/>
+<g transform="translate(38,70) scale(1.1666666666666667)"><path d="M13.5 2C13.5 2 7 8.5 7 14C7 17.58 9.92 20.5 13.5 20.5C17.08 20.5 20 17.58 20 14C20 12.2 19.3 10.5 18.2 9.2C17.9 10.5 17 11.5 15.8 11.8C15.8 9.5 14.7 7 13.5 2Z" fill="url(#flame_grad)"/></g>
+<text x="80" y="84" font-size="18" fill="#ffa116" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif" font-weight="bold">0 Days</text>
+<text x="80" y="100" font-size="11" fill="#8b949e" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif" font-weight="normal">Longest Streak</text>
+<g transform="translate(394,72) scale(1.0)"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8Z" fill="#ffa116"/></g>
+<line x1="22" y1="130" x2="438" y2="130" stroke="#21262d" stroke-width="1"/>
+<text x="22" y="154" font-size="13" fill="#e6edf3" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif" font-weight="bold">Monthly Activity</text>
+<text x="230.0" y="231" font-size="12" fill="#8b949e" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, sans-serif" font-weight="normal" text-anchor="middle">No monthly activity data available</text>
+</g>
+</svg>
